@@ -1,0 +1,77 @@
+body{
+  margin: 0;
+  padding:0;
+  font-family: Arial,sans-serif;
+  background: url("./Components/words.jpg");
+  background-color: #ccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white
+}
+
+h1{
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.form-class input[type='text']{
+    width: 50%;
+    padding: 1rem;
+    margin: 2rem;
+    margin-left: 20rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px black;
+}
+button{
+  /* display: flex; */
+  /* flex-direction: row; */
+  padding: 0.5rem;
+  margin-left: 15rem;
+  font-size: 1.2rem;
+  width: 10%;
+  border: none;
+  border-radius: .5rem;
+  box-shadow: 5px 5px 5px black;
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 70px;
+  padding: 10px;
+  padding-bottom: 30px;
+  border: 2px solid black;  
+  text-align: center;
+  background-color: white;
+  color: #000000;
+  visibility: hidden;
+}
+.showContainer{
+  visibility: visible;
+}
+.container ul{
+  list-style: none;
+}
+
+.meaning{
+  margin: 2rem 6rem;
+  padding: 10px 15px;
+  border: 1px solid red;
+}
+.example{
+  margin: 2rem 15rem;
+  padding: 10px 15px;
+  border: 1px solid blue;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
