@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/dictionary-app/static/css/main.d1aaf40d.chunk.css",
-    "main.js": "/dictionary-app/static/js/main.8477c3ef.chunk.js",
-    "main.js.map": "/dictionary-app/static/js/main.8477c3ef.chunk.js.map",
-    "runtime-main.js": "/dictionary-app/static/js/runtime-main.ec33ef23.js",
-    "runtime-main.js.map": "/dictionary-app/static/js/runtime-main.ec33ef23.js.map",
-    "static/js/2.b375ffa6.chunk.js": "/dictionary-app/static/js/2.b375ffa6.chunk.js",
-    "static/js/2.b375ffa6.chunk.js.map": "/dictionary-app/static/js/2.b375ffa6.chunk.js.map",
-    "static/js/3.a23d7b28.chunk.js": "/dictionary-app/static/js/3.a23d7b28.chunk.js",
-    "static/js/3.a23d7b28.chunk.js.map": "/dictionary-app/static/js/3.a23d7b28.chunk.js.map",
+    "main.css": "/dictionary-app/static/css/main.deb6a1b4.chunk.css",
+    "main.js": "/dictionary-app/static/js/main.8687cf52.chunk.js",
+    "main.js.map": "/dictionary-app/static/js/main.8687cf52.chunk.js.map",
+    "runtime-main.js": "/dictionary-app/static/js/runtime-main.3d3783c2.js",
+    "runtime-main.js.map": "/dictionary-app/static/js/runtime-main.3d3783c2.js.map",
+    "static/js/2.3400106f.chunk.js": "/dictionary-app/static/js/2.3400106f.chunk.js",
+    "static/js/2.3400106f.chunk.js.map": "/dictionary-app/static/js/2.3400106f.chunk.js.map",
+    "static/js/3.915bdcf5.chunk.js": "/dictionary-app/static/js/3.915bdcf5.chunk.js",
+    "static/js/3.915bdcf5.chunk.js.map": "/dictionary-app/static/js/3.915bdcf5.chunk.js.map",
     "index.html": "/dictionary-app/index.html",
-    "static/css/main.d1aaf40d.chunk.css.map": "/dictionary-app/static/css/main.d1aaf40d.chunk.css.map",
-    "static/js/2.b375ffa6.chunk.js.LICENSE.txt": "/dictionary-app/static/js/2.b375ffa6.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/dictionary-app/static/media/words.1d8c87ab.jpg"
+    "static/css/main.deb6a1b4.chunk.css.map": "/dictionary-app/static/css/main.deb6a1b4.chunk.css.map",
+    "static/js/2.3400106f.chunk.js.LICENSE.txt": "/dictionary-app/static/js/2.3400106f.chunk.js.LICENSE.txt",
+    "static/media/Content.css": "/dictionary-app/static/media/words.1d8c87ab.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ec33ef23.js",
-    "static/js/2.b375ffa6.chunk.js",
-    "static/css/main.d1aaf40d.chunk.css",
-    "static/js/main.8477c3ef.chunk.js"
+    "static/js/runtime-main.3d3783c2.js",
+    "static/js/2.3400106f.chunk.js",
+    "static/css/main.deb6a1b4.chunk.css",
+    "static/js/main.8687cf52.chunk.js"
   ]
 }
