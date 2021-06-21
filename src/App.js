@@ -1,11 +1,11 @@
 import './App.css';
 import Content from './Components/Content';
-import Header from './Components/Header';
+// import Header from './Components/Header';
 
 function App() {
   return (
-    <div className="App">
-      <Header title={'Dictionary App'} />
+    <div className="app">
+      {/* <Header title={'Dictionary App'} /> */}
       <Content/>
     </div>
   );

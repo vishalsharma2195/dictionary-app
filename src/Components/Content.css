@@ -1,0 +1,117 @@
+.content{
+   background-image: url('./words.jpg');
+   background-color: #ccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.content-head{
+    font-size: 55px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.form-class input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    width: 45%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25rem;
+    box-shadow: 5px 5px 5px black;
+}
+
+.button-grp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-grp button{
+    font-size: 35px;
+    font-weight: 500;
+    width: 12%;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 40px 20px;
+    visibility: hidden;
+}
+
+.showContainer{
+    visibility: visible;
+}
+
+.left{
+    flex: 0.5;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(235, 232, 232);
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.right{
+    flex: 0.5;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(235, 232, 232);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .content-head{
+        padding: 10px;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    
+    .form-class input{
+        font-size: 15px;
+        margin: 10px;
+        margin-left: 6rem;
+        width: 40%;
+    }
+
+    .button-grp button{  
+        width: 30%;
+        font-size: 20px;
+    }
+
+    .left{
+        width: 100px;
+        height: 300px;
+    }
+    .right{
+        width: 100px;
+        height: 300px;
+    }
+  }

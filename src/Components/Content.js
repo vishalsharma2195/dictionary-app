@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import "./Content.css";
 
 function Content() {
   const [words, setWords] = useState([]);
@@ -40,13 +41,18 @@ function Content() {
     }, 2000);
   };
   return (
-    <form className="form-class">
+    <div className="content">
+      <div className="content-head">
+        <h1>Dictionary</h1>
+      </div>
+      <form className="form-class">
       <input
         type="text"
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
       <br />
+      <div className="button-grp">
       <button type="button" id="search-btn" onClick={handleClick}>
         Search
       </button>
@@ -66,18 +72,21 @@ function Content() {
       >
         Previous
       </button>
+      </div>
+      
       <div className="container" ref={containerRef}>
-        <div className="meaning">
+        <div className="meaning left">
           <h2>Meaning</h2>
           <ul>{<li>{words}</li>}</ul>
         </div>
-        <div className="example">
+        <div className="example right">
           <h2>Example</h2>
           <ul>{<li>{example}</li>}</ul>
         </div>
       </div>
     </form>
-  );
+    </div>
+    );
 }
 
 export default Content;
