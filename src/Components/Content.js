@@ -16,10 +16,7 @@ function Content() {
         {
           method: "GET",
           headers: {
-            "x-rapidapi-key":
-              "cc0e3f1597msh8e9eba028b145dap1fea0cjsnd0f95a437c66",
-            "x-rapidapi-host":
-              "mashape-community-urban-dictionary.p.rapidapi.com",
+            "Enter API key"
           },
         }
       )
