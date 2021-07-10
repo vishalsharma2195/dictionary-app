@@ -11,15 +11,8 @@ function Content() {
 
   useEffect(() => {
     if (buttonClick !== "") {
-      fetch(
-        `https://mashape-community-urban-dictionary.p.rapidapi.com/define?term=${buttonClick}`,
-        {
-          method: "GET",
-          headers: {
-            "Enter API key"
-          },
-        }
-      )
+      fetch('Enter API key')
+      
         .then((response) => response.json())
         .then((data) => {
           console.log(data.list[count].definition);
